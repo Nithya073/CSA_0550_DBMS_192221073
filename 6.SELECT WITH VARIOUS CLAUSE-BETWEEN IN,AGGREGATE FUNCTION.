@@ -85,11 +85,7 @@ mysql> select min(marks) as minimum from student;
 |      90 |
 +---------+
 1 row in set (0.03 sec)
-
-mysql> select max
-    -> select max(marks) as maximum from student;
-ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select max(marks) as maximum from student' at line 2
-mysql> select max(marks) as maximum from student;
+mySQL> select max(marks) as maximum from student;
 +---------+
 | maximum |
 +---------+
